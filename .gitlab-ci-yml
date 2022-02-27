@@ -1,0 +1,10 @@
+image: cypress/base:10
+
+stages:
+  - test
+
+e2e_Tests:
+  stage: test
+  script:
+      - npm install
+      - npm run e2eTests_headless
