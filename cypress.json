@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://www.thuisbezorgd.nl",
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "video": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "charts": true
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-27T17:45:23.374Z",
+    "end": "2022-02-27T17:45:45.910Z",
+    "duration": 22536,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "acf79614-daf7-49df-98e4-7acde2a05675",
+      "title": "",
+      "fullFile": "cypress/integration/e2e_tests/place_order.spec.js",
+      "file": "cypress/integration/e2e_tests/place_order.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4bbbf452-b5f9-4dff-9e34-d233d7fd545a",
+          "title": "Thuisbezorgd E2E Automation Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add burger to cart",
+              "fullTitle": "Thuisbezorgd E2E Automation Tests Add burger to cart",
+              "timedOut": null,
+              "duration": 22477,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _search.searchRestaurant)(this.data.restaurantName);\n(0, _search.selectRestaurant)();\n(0, _cart.addBurgerToCart)(this.data.chickenBurger, this.data.beefBurger);\n(0, _cart.checkout)(this.data.streetName, this.data.houseNumber, this.data.postcode, this.data.city, this.data.userName, this.data.email, this.data.phoneNum);\n(0, _cart.selectPaymentCashOption)();\n(0, _cart.validateErrorMessage)(this.data.errorMessage);",
+              "err": {},
+              "uuid": "44d48d07-2468-47a9-9b63-7c686f75dc65",
+              "parentUUID": "4bbbf452-b5f9-4dff-9e34-d233d7fd545a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "44d48d07-2468-47a9-9b63-7c686f75dc65"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 22477,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

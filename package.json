@@ -1,0 +1,24 @@
+{
+  "name": "thuisbezorgd",
+  "version": "1.0.0",
+  "description": "Thuisbezorgd Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "runHeadLess": "./node_modules/.bin/cypress run --headless",
+    "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
+    "e2eTests_headed": "./node_modules/.bin/cypress run --headed --spec cypress/integration/e2e_tests/place_order.spec.js",
+    "e2eTests_headless": "./node_modules/.bin/cypress run --headless --spec cypress/integration/e2e_tests/place_order.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^8.4.1",
+    "cypress-xpath": "^1.6.2",
+    "mocha": "9.0.3",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.2.0"
+  }
+}

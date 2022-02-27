@@ -1,0 +1,13 @@
+{
+  "restaurantName": "BRT Cypress Test Restaurant",
+  "chickenBurger": "Chicken Burger",
+  "beefBurger": "Beef Burger",
+  "streetName": "main street",
+  "houseNumber": "2415",
+  "postcode": "8888AA",
+  "city": "Enschede",
+  "userName": "TestUSer",
+  "phoneNum": "1234567890",
+  "email": "testuser@test.test",
+  "errorMessage":"BRT Cypress Test Restaurant does not deliver in the delivery area 8888AA. Please tap here to see restaurants that deliver in the area 8888AA."
+}
